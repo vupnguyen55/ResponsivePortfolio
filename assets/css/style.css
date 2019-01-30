@@ -145,6 +145,12 @@ form {
     .textBox{
         width: 50%;
     }
+    #Name > h1{
+        width: 100%;
+    }
 }
+
+/** I couldnt get the floating tags on the images on portfolio to shrink with the page**/
+
 
   
