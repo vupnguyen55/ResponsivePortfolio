@@ -1,0 +1,150 @@
+/**Index*****************************************/
+
+header{
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+#aboutHeader{
+    background-color:white;
+    border-bottom: 10px solid gray;
+
+}
+body{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+#Name > h1{
+    background-color:#DB4437;
+    font-weight: bold;
+    color:white;
+    padding: 30px 50px 30px 50px;
+    float: left;
+    font-size: 40px;
+    margin-left: 70px;
+}
+header > h2{
+    margin-top: 40px;
+}
+
+#About, #Portfolio, #Contact{
+    float:right;
+    color: grey;
+    font-size: 20px;
+    margin-right: 70px;
+    
+}
+#aboutHeader::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+#profilePic{
+    float: left;
+    padding: 25px 70px 0 10px;
+}
+
+#indexHeader {
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: #DB4437;
+    border-bottom: 3px solid lightgrey;
+}
+
+#profilePic::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#paraBody {
+    border: 10px solid grey;
+    background-color:white;
+    margin: 50px 70px 50px 70px;
+    font-size: 15px;
+    line-height: 50px;
+    padding: 30px 60px 30px 60px;
+
+}
+
+#copyright{
+    text-align: center;
+    background-color:whitesmoke;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+
+}
+
+/** Portfolio ********************************/
+.pic1 > img{
+    margin-top: 20px;
+}
+
+
+.pic1{
+    position: relative;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5 {
+    position: absolute;
+    background-color: #DB4437;
+    color:white;
+    width: 32.8%;
+    padding: 10px;
+    top: 120px;
+    text-align: center;
+}
+
+
+/** Contacts ************************************/
+
+form {
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textBox{
+    font-size: 15px;
+}
+
+#submit{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #DB4437;
+    color:white;
+    padding: 6px 20px 6px 20px;
+
+}
+
+/** Responsive Design ***************************/
+
+@media screen and (max-width: 980px) and (min-width: 767px) {
+    #Contact,
+    #Portfolio,
+    #About, {
+        width: 80%;
+    }
+    .textBox{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 641px){
+    #Contact,
+    #Portfolio,
+    #About, {
+        width: 50%;
+    }
+    .textBox{
+        width: 50%;
+    }
+}
+
+  
